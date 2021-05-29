@@ -32,6 +32,7 @@ export class App extends Component {
         <section></section>
         <main>
           <h1>1989's Best Flicks</h1>
+          <input></input>
           <ul>
             {this.state.results.map(movie => {
               return (

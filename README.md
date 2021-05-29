@@ -74,23 +74,31 @@ Explorer Mode
 
     -Use the API to fetch the data and render it on the page, rather than the supplied JSON file.
 
+<!-- DONE -->
+
     -You should have at least two components; App and Movie.
+
+<!-- DONE -->
 
     -Render at least the title, poster image, and plot overview.
 
+<!-- DONE -->
+
     - Feel free to include other pieces of the data.
 
-    -Try to capture a 1980's or early 90's aesthetic when you style your page. Have fun with it!
+<!-- DONE -->
+
+    ----------------Try to capture a 1980's or early 90's aesthetic when you style your page. Have fun with it!
 
 Adventure Mode
 
-    -Sort the films by release date, rather than as they appear in the file.'
+    ----------------Sort the films by release date, rather than as they appear in the file.'
 
-    -Add a search bar that filters down the shown results. Note that is not making a new API call, just filtering the current list
+    ----------------Add a search bar that filters down the shown results. Note that is not making a new API call, just filtering the current list
 
-    -Display the release date in a formatted manner, e.g. "May 24th", rather than 1989-05-24.
+    ----------------Display the release date in a formatted manner, e.g. "May 24th", rather than 1989-05-24.
 
-    - HINT: moment.js or date-fns or some utility  code you write yourself!
+    HINT: moment.js or date-fns or some utility  code you write yourself!
 
 Epic Mode
 
