@@ -1,5 +1,11 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font: 16px / 1 serif;
+  color: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
 }
 
 html {
@@ -9,4 +15,45 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgb(255, 57, 57);
+}
+
+h1 {
+  text-align: center;
+  padding: 3rem 0rem 0rem 0rem;
+}
+
+div {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  justify-content: space-evenly;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-evenly;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 0rem;
+}
+
+a {
+  padding: 1rem;
+}
+
+img {
+  width: 7.5rem;
+  height: auto;
+  padding: 1rem;
+}
+
+p {
+  text-align: center;
+  padding: 1rem;
 }

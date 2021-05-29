@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Movie from './components/Movie'
 
 export class App extends Component {
   state = {
@@ -28,22 +29,26 @@ export class App extends Component {
   render() {
     return (
       <>
-        <h1>Hello, Fetch</h1>
-        <div>
+        <section></section>
+        <main>
+          <h1>1989's Best Flicks</h1>
           <ul>
             {this.state.results.map(movie => {
               return (
-                <li key={movie.id}>
-                  <a
-                    href={`https://api.themoviedb.org/3/movie/${movie.id}?api_key=44f9f452be88057e15959be8257069c0`}
-                  >
-                    {movie.original_title}
-                  </a>
-                </li>
+                <>
+                  <Movie
+                    id={movie.id}
+                    title={movie.title}
+                    poster={`https://image.tmdb.org/t/p/w185${movie.poster_path}`}
+                    overview={movie.overview}
+                    releaseDate={movie.release_date}
+                  />
+                </>
               )
             })}
           </ul>
-        </div>
+        </main>
+        <section></section>
       </>
     )
   }
