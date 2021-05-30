@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Movie from './components/Movie'
+import ReleaseDate from './components/ReleaseDate'
 
 export class App extends Component {
   state = {
@@ -42,8 +43,8 @@ export class App extends Component {
                     title={movie.title}
                     poster={`https://image.tmdb.org/t/p/w185${movie.poster_path}`}
                     overview={movie.overview}
-                    releaseDate={movie.release_date}
                   />
+                  <ReleaseDate releaseDate={movie.release_date} />
                 </>
               )
             })}

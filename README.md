@@ -94,7 +94,11 @@ Adventure Mode
 
     ----------------Sort the films by release date, rather than as they appear in the file.'
 
+    ~ this can be done directly in the api call
+
     ----------------Add a search bar that filters down the shown results. Note that is not making a new API call, just filtering the current list
+
+    ~ update state with input the way the scoreboard was implemented, but, instead of updating the display, update a variable in the filtering method
 
     ----------------Display the release date in a formatted manner, e.g. "May 24th", rather than 1989-05-24.
 
@@ -104,7 +108,11 @@ Epic Mode
 
     - Give the user a chance to "favorite" movies and store favorite movies in local storage
 
+    ~ when you figure this out for minesweeper, you'll be able to clone it
+
     - Explore the API and use other endpoints.
+
+    ~ see if you can link to a particular movie and display more information
 
     - Allow the user to change the year they are searching for
 

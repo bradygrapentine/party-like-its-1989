@@ -10,8 +10,6 @@ class Movie extends Component {
         {this.props.title}
         {/* </a> */}
         <img src={this.props.poster} />
-
-        <h5>{this.props.releaseDate}</h5>
         <p>{this.props.overview}</p>
       </li>
     )
