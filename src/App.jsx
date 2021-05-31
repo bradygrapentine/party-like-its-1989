@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Movie from './components/Movie'
 import ReleaseDate from './components/ReleaseDate'
+import moment from 'moment'
 
 export class App extends Component {
   state = {
@@ -36,7 +37,11 @@ export class App extends Component {
           {/* <input></input> */}
           <ul>
             {this.state.results
-              // .sort(movie => movie.release_date)
+              .sort(
+                (a, b) =>
+                  Date.parse(`${a.release_date}`) -
+                  Date.parse(`${b.release_date}`)
+              )
               .map(movie => {
                 return (
                   <>
