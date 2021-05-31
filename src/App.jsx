@@ -33,7 +33,7 @@ export class App extends Component {
         <section></section>
         <main>
           <h1>1989's Best Flicks</h1>
-          <input></input>
+          {/* <input></input> */}
           <ul>
             {this.state.results
               // .sort(movie => movie.release_date)

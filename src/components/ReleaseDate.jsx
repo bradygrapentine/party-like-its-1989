@@ -5,7 +5,7 @@ class ReleaseDate extends Component {
     return (
       <h5 className="releaseDate">
         {' '}
-        {this.props.title} was released on: {this.props.releaseDate}
+        '{this.props.title}' was released on: {this.props.releaseDate}
       </h5>
     )
   }
