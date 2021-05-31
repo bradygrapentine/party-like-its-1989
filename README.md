@@ -94,15 +94,17 @@ Explorer Mode
 
 Adventure Mode
 
-    ----------------Sort the films by release date, rather than as they appear in the file.'
+    - Sort the films by release date, rather than as they appear in the file.'
 
-    ~ this can be done directly in the api call, or with a sort before the map
+<!-- DONE -->
 
     ----------------Add a search bar that filters down the shown results. Note that is not making a new API call, just filtering the current list
 
     ~ update state with input the way the scoreboard was implemented, but, instead of updating the display, update a variable in the filtering method
 
-    ----------------Display the release date in a formatted manner, e.g. "May 24th", rather than 1989-05-24.
+    - Display the release date in a formatted manner, e.g. "May 24th", rather than 1989-05-24.
+
+<!-- DONE -->
 
     HINT: moment.js or date-fns or some utility  code you write yourself!
 

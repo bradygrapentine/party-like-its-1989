@@ -26,6 +26,7 @@
     "arrowParens": "avoid"
   },
   "dependencies": {
+    "date-fns": "^2.22.1",
     "json": "^11.0.0",
     "moment": "^2.29.1",
     "react": "^17.0.2",
