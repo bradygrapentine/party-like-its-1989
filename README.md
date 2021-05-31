@@ -88,13 +88,15 @@ Explorer Mode
 
 <!-- DONE -->
 
-    ----------------Try to capture a 1980's or early 90's aesthetic when you style your page. Have fun with it!
+    - Try to capture a 1980's or early 90's aesthetic when you style your page. Have fun with it!
+
+<!-- DONE -->
 
 Adventure Mode
 
     ----------------Sort the films by release date, rather than as they appear in the file.'
 
-    ~ this can be done directly in the api call
+    ~ this can be done directly in the api call, or with a sort before the map
 
     ----------------Add a search bar that filters down the shown results. Note that is not making a new API call, just filtering the current list
 

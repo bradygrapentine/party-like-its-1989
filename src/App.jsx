@@ -35,19 +35,26 @@ export class App extends Component {
           <h1>1989's Best Flicks</h1>
           <input></input>
           <ul>
-            {this.state.results.map(movie => {
-              return (
-                <>
-                  <Movie
-                    id={movie.id}
-                    title={movie.title}
-                    poster={`https://image.tmdb.org/t/p/w185${movie.poster_path}`}
-                    overview={movie.overview}
-                  />
-                  <ReleaseDate releaseDate={movie.release_date} />
-                </>
-              )
-            })}
+            {this.state.results
+              // .sort(movie => movie.release_date)
+              .map(movie => {
+                return (
+                  <>
+                    <Movie
+                      className="movie"
+                      id={movie.id}
+                      title={movie.title}
+                      poster={`https://image.tmdb.org/t/p/w185${movie.poster_path}`}
+                      overview={movie.overview}
+                    />
+                    <ReleaseDate
+                      className="releaseDate"
+                      title={movie.title}
+                      releaseDate={movie.release_date}
+                    />
+                  </>
+                )
+              })}
           </ul>
         </main>
         <section></section>
